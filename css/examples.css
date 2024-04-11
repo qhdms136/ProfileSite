@@ -62,7 +62,7 @@ justify-content: center;}
 }
 .container_0{
     max-width: 1140px;
-    padding-top: 120px;
+    padding-top: 100px;
     box-sizing: border-box;
     padding-left: 40px;
     padding-right: 40px;
@@ -136,7 +136,7 @@ justify-content: center;}
 /* SKILLS */
 .intro{
     max-width: 1140px;
-    padding-top: 120px;
+    padding-top: 100px;
     box-sizing: border-box;
     padding-left: 40px;
     padding-right: 40px;
@@ -201,7 +201,7 @@ justify-content: center;}
     /* -webkit-box-sizing: border-box; */
     /* flex-shrink: 0; */
     max-width: 1140px;
-    padding: 1.5rem;
+    padding: 1rem;
     margin: 0 auto 2rem;
     border-radius: 1rem;
     background-color: #fff;
@@ -226,7 +226,7 @@ justify-content: center;}
     font-weight: bold;
 }
 .arc img{
-    height: 100px;
+    height: 80px;
     margin:10px;
 }
 
@@ -248,7 +248,7 @@ justify-content: center;}
     -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
 }
 .p_img1{
-    width: 200px;
+    width: 170px;
     background: no-repeat center;
     background-image: url('../images/github-io-RedSparksTeamProject.jpg');
     background-size: contain;
