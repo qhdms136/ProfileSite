@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* Reset CSS :작성한 파일 있으면 대체 가능 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0}
+a{text-decoration:none}
+table{border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal}
+strong{font-weight:bold}
+ol,ul,li{list-style:none;margin:0;padding:0}
+caption,th{text-align:left}
+h1,h2,h3{font-weight:normal;font-size:100%;color:#444}
+
+/* Custom CSS */
+body{font-family:"돋움",arial,helvetica;color:#333;color:rgba(0,0,0,0.5)}
+.wrap{margin-left:auto;margin-right:auto;width:960px;position:relative}
+h1{font-size:4em}
+h2{font-size:3em}
+p{font-size:2em} */
+/* /* .intro p{width:50%;margin:0 auto;font-size:1.5em} */
+.intro li{width:50%;margin:0 auto;font-size:1.5em}
+.section{text-align:center}
+#menu li{display:inline-block;margin:10px;margin-top:20px;color:#463B34;font-weight:bolder;font-size: 20px;}
+#menu li.active{color:#F4623A}
+#menu li a{	text-decoration:none;color:#463B34}
+#menu li.active a:hover{color:#F4623A}
+#menu li a:hover{color:#F4623A}
+#menu li a,#menu li.active a{padding:9px 18px;display:block}
+#menu li.active a{color:#F4623A}
+/* #menu{} */
+
+#section3 ul{position:relative;width:700px;margin:auto}
+.web{width:563px !important;height:454px;background:url(../images/imac.png) no-repeat;position:absolute;left:0;top:0}
+.web a{display:block;width:517px;height:291px;position:absolute;left:23px;top:23px;text-indent:-9999px;background:url(../images/naver_web.jpg) no-repeat}
+.mobile{width:150px !important;height:307px;background:url(../images/iphone.png) no-repeat;position:absolute;left:520px;top:200px}
+.mobile a{display:block;width:138px;height:245px;position:absolute;left:7px;top:31px;text-indent:-9999px;background:url(../images/naver_mobile.jpg) no-repeat}
+#section3 h2{margin-top:100px}
+
+/* header */
+.header{position:fixed;top:0;left:0;height:80px;z-index:70;width:100%;padding:0;margin:0;background: #fff;
+display: flex;
+justify-content: center;}
+.logo{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #463B34;
+}
+.d_flex{
+    display: flex;
+    min-width: 1140px;
+    width: 1140px;
+    justify-content: space-between;
+}
+/* section0 */
+#section0{
+    background: url('../images/screen_13300989.jpg') no-repeat center;
+    background-size: cover;
+}
+.section0_bg{
+    /* background-color: rgb(134,119,110, 0.8); */
+     background-color: rgb(0,0,0, 0.75);
+    height: 100%;
+}
+.container_0{
+    max-width: 1140px;
+    padding-top: 160px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* background-color: #feffc1; */
+    height: 100%;
+    margin: 0 auto;
+}
+.profile_container{
+    height: 600px;
+    /* background: #333; */
+}
+.profile_box1{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    /* background: blueviolet; */
+}
+.profile_font1{
+    box-sizing: border-box;
+    padding-top: 85px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5;    ;
+    width: 65%;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+}
+.about{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color:#fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+.about_container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+.about_box{
+    display: flex;
+    width: 300px;
+    margin: 40px 0 20px 0;
+    text-align: left;
+}
+.about_title{
+    color:#fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.about_cont{
+    color:#fff;
+    font-size: 1rem;
+}
+.about_box img{
+    margin-right: 30px;
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+.profile_box2{
+    height: 50%;
+    /* background: blue; */
+}
+
+/* SKILLS */
+.intro{
+    max-width: 1140px;
+    padding-top: 160px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* background-color: #feffc1; */
+    height: 100%;
+    margin: 0 auto;
+}
+.skills{
+    width: 330px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    color:#000;
+    font-size: 3.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+
+.skills_box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /* -webkit-box-sizing: border-box; */
+    /* flex-shrink: 0; */
+    max-width: 1140px;
+    padding: 1.5rem;
+    margin: 0 auto 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+    -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+}
+.skill{
+    margin-bottom: 15px;
+}
+.skill img {
+    height: 100px;
+    margin:10px;
+}
+.skill_percent{
+    font-weight: bold;
+    color: #000;
+}
+
+/* arc */
+.archiving{
+    width: 330px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    color:#fff;
+    font-size: 3.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+.arc_box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /* -webkit-box-sizing: border-box; */
+    /* flex-shrink: 0; */
+    max-width: 1140px;
+    padding: 1.5rem;
+    margin: 0 auto 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+    -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+    transition: all 0.2s linear;
+}
+.arc_ahover:hover .arc_box{
+    transform: scale(1.1);
+}
+.arc_ahover:hover p{
+    color:#F4623A;
+}
+.arc{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.arc_cont p{
+    color:black;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.arc img{
+    height: 100px;
+    margin:10px;
+}
+
+/* project */
+.project_box{
+    display: flex;
+    height: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    /* -webkit-box-sizing: border-box; */
+    /* flex-shrink: 0; */
+    max-width: 1140px;
+    padding: 1.5rem;
+    margin: 0 auto 2rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+    -webkit-box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+}
+.p_img1{
+    width: 200px;
+    background: no-repeat center;
+    background-image: url('../images/github-io-RedSparksTeamProject.jpg');
+    background-size: contain;
+}
+.p_img2{
+    width: 200px;
+    background: no-repeat center;
+    background-image: url('../images/github-io-ShoesFarmProject.jpg');
+    background-size: contain;
+}
+.p_img3{
+    width: 200px;
+    background: no-repeat center;
+    background-image: url('../images/github-io-MiniGameProject.jpg');
+    background-size: contain;
+}
+
+.p_cont{
+    max-width: 510px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.p_cont a{
+    color:blue;
+}
+.p_cont button{
+    margin-right: 10px;
+}
+.p_strong{
+    color:red;  
+}
+.p_title{
+    font-weight: bolder;
+    color:black;
+}
